@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+.btn{
+  color: #fff;
+}
+textarea{
+  resize: none;
+  height: 500px;
+}
+.accordion-item{
+  border: solid 2px aqua;
+}
+.accordion-button{
+  border: solid 1px aqua;
+
+}
+.accordion-button::before{
+  color: chartreuse;
+}
 
 @keyframes App-logo-spin {
   from {
